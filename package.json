@@ -49,5 +49,13 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@storybook/addon-backgrounds": "^7.6.12",
+    "@storybook/addon-contexts": "^5.3.21",
+    "styled-component": "^2.8.0"
+  },
+  "compilerOptions": {
+    "jsx": "react"
+}
 }
