@@ -16,10 +16,15 @@ Clone the repository containing the component library to your local machine.
 
 ```bash
 git clone https://github.com/ttwei3/assignment_coding12.git
+
 cd assignment_coding12
 
+
 docker build -t wei_tingting_coding_assignment12 .
-docker run -d -p 8083:8083 --name wei_tingting_coding_assignment12 wei_tingting_coding_assignment12
+
+docker run -p 8083:6006 wei_tingting_coding_assignment12
+```
+
 
 
 
