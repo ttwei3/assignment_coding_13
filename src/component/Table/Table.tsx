@@ -1,11 +1,13 @@
-import React from 'react';
-import styled from 'styled-components';
-import { TableProps } from './Table.types';
+import React from "react";
+import styled from "styled-components";
+import { TableProps } from "./Table.types";
 
 const StyledTable = styled.table<{ disabled?: boolean }>`
   width: 100%;
   border-collapse: collapse;
-  ${(props) => props.disabled && `
+  ${(props) =>
+    props.disabled &&
+    `
   background-color: darkgrey;
   cursor: not-allowed;
   color: #ccc;

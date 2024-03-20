@@ -7,7 +7,7 @@ const StyledButton = styled.button<ButtonProps>`
   border: 0;
   line-height: 1;
   font-size: 15px;
-  cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
+  cursor: ${(props) => (props.disabled ? "not-allowed" : "pointer")};
   font-weight: 700;
   font-weight: bold;
   border-radius: 3px;
@@ -16,8 +16,8 @@ const StyledButton = styled.button<ButtonProps>`
     props.size === "small"
       ? "7px 25px 8px"
       : props.size === "medium"
-      ? "9px 30px 11px"
-      : "14px 35px 16px"};
+        ? "9px 30px 11px"
+        : "14px 35px 16px"};
   color: ${(props) => (props.primary ? "#47176e" : "#0b4e45")};
   background-color: ${(props) => (props.primary ? "#d4bae9" : "#7ed7cb")};
   opacity: ${(props) => (props.disabled ? 0.5 : 1)};
@@ -30,10 +30,12 @@ const StyledButton = styled.button<ButtonProps>`
       props.size === "small"
         ? "5px 23px 6px"
         : props.size === "medium"
-        ? "7px 28px 9px"
-        : "12px 28px 14px"};
+          ? "7px 28px 9px"
+          : "12px 28px 14px"};
   }
-  ${(props) => props.disabled && `
+  ${(props) =>
+    props.disabled &&
+    `
     && {
       background-color: pink;
       cursor: not-allowed;
@@ -57,7 +59,8 @@ const Button: React.FC<ButtonProps> = ({
       primary={primary}
       disabled={disabled}
       size={size}
-      {...props}>
+      {...props}
+    >
       {text}
     </StyledButton>
   );

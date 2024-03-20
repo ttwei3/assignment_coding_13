@@ -1,6 +1,6 @@
 // Marbella/TableRow.tsx
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const StyledTableRow = styled.tr`
   &:nth-child(even) {
