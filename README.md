@@ -15,14 +15,14 @@ Follow these steps to get your component library running on localhost port 8083.
 Clone the repository containing the component library to your local machine.
 
 ```bash
-git clone https://github.com/ttwei3/assignment_coding12.git
+git clone https://github.com/ttwei3/assignment_coding_13.git
 
-cd assignment_coding12
+cd assignment_coding13
 
 
-docker build -t wei_tingting_coding_assignment12 .
+docker build -t wei_tingting_coding_assignment13 .
 
-docker run -p 8083:6006 wei_tingting_coding_assignment12
+docker run -p 8083:6006 wei_tingting_coding_assignment13
 ```
 
 
