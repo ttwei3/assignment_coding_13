@@ -17,7 +17,7 @@ Start by cloning the repository containing the component library source code to 
 ```bash
 git clone https://github.com/ttwei3/assignment_coding_13.git
 
-cd assignment_coding13
+cd assignment_coding_13
 ```
 ### Build and Run the Docker Container
 ```
