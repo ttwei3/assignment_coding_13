@@ -23,7 +23,7 @@ cd assignment_coding13
 ```
 docker build -t wei_tingting_coding_assignment13 .
 
-docker run -p 8083:6006 wei_tingting_coding_assignment13
+docker run -p 8018:6006 wei_tingting_coding_assignment13
 ```
 ### Access the Application
 
